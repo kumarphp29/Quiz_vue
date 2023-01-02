@@ -13,6 +13,12 @@ body {
   background-color: lightgrey;
   padding: 10px;
 }
+.float-right{
+  float:right;
+}
+.fw-bold{
+  margin-bottom:20px
+}
 .container {
   margin: 30px auto;
   background: white;

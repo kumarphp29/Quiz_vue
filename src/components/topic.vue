@@ -3,7 +3,10 @@
   <form @submit.prevent="onSubmit" class="add-form" ref="form">
     <div class="row"> 
       <div class="col-12"> 
-          <p class="fw-bold"> {{ question }}</p>
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+          <p class="fw-bold"> {{ question }}<a href="" class="float-right">Logout</a></p>
+          </div>
           <div class="col-md-12"> 
               <div v-for="topic in topics" :key="topic.id">
                 <div class="col-md-1">

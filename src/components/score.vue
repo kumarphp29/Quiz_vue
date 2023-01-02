@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-md-12">
         <h1>Quiz</h1>
+        <a href="/" class="float-left">Logout</a>
         <p>Your Socre: {{ MyScore }}/10</p>
       </div>
 

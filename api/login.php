@@ -5,7 +5,7 @@ require_once 'vendor/autoload.php';
 // init configuration 
 $clientID = '534651796221-kko4fujmd6m6pgr80392bb231811u3dd.apps.googleusercontent.com';
 $clientSecret = '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';
-$redirectUri = 'http://localhost/Quiz_vue/api/login.php';
+$redirectUri = 'http://localhost/Quiz-vue/api/login.php';
   
 // create Client Request to access Google API 
 $client = new Google_Client();

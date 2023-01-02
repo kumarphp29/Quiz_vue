@@ -5,7 +5,7 @@
       <div class="col-12"> 
         <div class="col-md-1"></div>
         <div class="col-md-11">
-          <p class="fw-bold"> {{ question }}<a href="" class="float-right">Logout</a></p>
+          <p class="fw-bold"> {{ question }}<a href="/" class="float-right">Logout</a></p>
           </div>
           <div class="col-md-12"> 
               <div v-for="topic in topics" :key="topic.id">

@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios'
 //import router from '@/router/router'
 import router from './router'
-axios.defaults.baseURL = 'http://localhost/quiz/api/';
+axios.defaults.baseURL = 'http://localhost/Quiz_vue/api/';
 axios.defaults.headers.common['auth']= 'Quiz'
 //const history = createWebHistory({})
 //const routes = [history,{path:'/',component:Login},{path:'/topic',component:QuizTopic}];

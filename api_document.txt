@@ -1,0 +1,13 @@
+Get Topic
+
+    Url: http://localhost/quiz/api/topic.php
+    Method: GET
+    reponse: [{"topic":"Arts","id":"3"},{"topic":"Politics","id":"4"},{"topic":"Science & Technology","id":"2"},{"topic":"Sports","id":"1"}]
+
+Get Question and submit Question
+
+    Url: http://localhost/quiz/api/question.php
+    Method: POST
+    Headers:  {  "Accept": "application/json", "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
+    Request: topic:1,numQuestion:1,questionid:1,answerQuestion:50
+    Response: [{"topic":"Arts","id":"3"},{"topic":"Politics","id":"4"},{"topic":"Science & Technology","id":"2"},{"topic":"Sports","id":"1"}]
